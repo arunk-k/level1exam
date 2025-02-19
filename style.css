@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    /* height: 100vh; */
+    /* background-color: yellow; */
+}
+
+#sidebar {
+    width: 200px;
+    background-color: #290bbd;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+.fas {
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+#abt-content{
+    width: 100px;
+    /* background-color: pink; */
+    align-self: center;
+}
+
+#neaty{
+    align-self: center;
+}
+
+#para1{
+    font-size: 16x;
+}
+
+#main-content{
+    /* background-color: aquamarine; */
+    height: 900px;
+    width: 1500px;
+}
+
+#fruits{
+    height: 500px;
+    width: 1350px;
+}
+
+#heading-para{
+
+}
+
+.abt-team{
+    background-color: blueviolet;
+    display: flex;
+}
+
+
+#imgdiv{
+    height: 150;
+    width: 150px;
+}
+
+#imgteam{
+    width: 220px;
+    height: 220px;
+}
